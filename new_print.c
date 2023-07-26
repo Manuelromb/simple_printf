@@ -61,7 +61,7 @@ int print_format(char specifier, va_list ap)
 }
 
 
-int new_printf(const char *format, ...)
+int _printf(const char *format, ...)
 {
 	va_list	args;
 	int count;
